@@ -66,7 +66,17 @@ body {
   text-align: end;
 }
 
-.text-and-img .two-col-container img {
+.text-and-img .size-40-60 .text-wrap {
+  width: 60%;
+}
+
+.text-and-img .size-40-60 .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.text-and-img .size-40-60 img {
   display: block;
   max-width: 500px;
   width: 100%;
